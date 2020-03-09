@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="E_1">Amount</string>
+    <string name="E_2">Tax Percentage</string>
+    <string name="E_3">Tip Percentage</string>
+    <string name="B_1">Submit</string>
+</resources>

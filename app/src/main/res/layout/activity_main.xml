@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/E_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/contentMargin"
+            android:freezesText="true"
+            android:hint="@string/E_1"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/E_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/contentMargin"
+            android:freezesText="true"
+            android:hint="@string/E_2"
+            android:inputType="textImeMultiLine" />
+
+
+        <EditText
+            android:id="@+id/E_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/contentMargin"
+            android:freezesText="true"
+            android:hint="@string/E_3"
+            android:inputType="textImeMultiLine" />
+
+
+
+        <Button
+            android:id="@+id/B_1"
+            style="@style/ButtonStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/B_1"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
